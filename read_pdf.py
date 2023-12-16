@@ -108,5 +108,6 @@ def read_pdf_second(pdf_file: str) -> dict:
 
 if __name__ == "__main__":
     pdf_file_path = "test_task.pdf"
+    # Both options are working
     # data = read_pdf_first(pdf_file_path)
     data = read_pdf_second(pdf_file_path)
